@@ -69,11 +69,8 @@ body {
   padding-left: 16px;
   align-items: center;
 }
-
-.gallery {
+.sections {
   display: flex;
-  width: 1440px;
-  height: 848px;
   padding: 100px 156px;
   flex-direction: column;
   justify-content: center;
@@ -81,8 +78,15 @@ body {
   gap: 48px;
   background: #FFF;
 }
+.gallery {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 24px;
 
-.gallery-item {}
+}
+
+
 
 .gallery-item img {
   width: 360px;
@@ -248,7 +252,4 @@ width: 486px;
 padding: 32px;
 border-radius: 8px;
 background: #F6F6FE;
-}
-
-.box {
 }
